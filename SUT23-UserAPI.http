@@ -1,0 +1,6 @@
+@SUT23_UserAPI_HostAddress = http://localhost:5276
+
+GET {{SUT23_UserAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
